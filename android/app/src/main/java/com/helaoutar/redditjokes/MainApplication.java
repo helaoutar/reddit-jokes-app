@@ -1,4 +1,4 @@
-package com.redditjokes;
+package com.helaoutar.redditjokes;
 
 import android.app.Application;
 
