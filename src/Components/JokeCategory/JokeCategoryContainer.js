@@ -16,7 +16,8 @@ class JokeCategoryContainer extends Component {
   }
 
   render() {
-    const { category } = this.props;
+    const { category, shouldShoulCategory } = this.props;
+    alert(shouldShoulCategory);
     return (
       <JokeCategory category={category} onPressHandler={this.categoryPressHandler} />
     );

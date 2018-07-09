@@ -2,8 +2,8 @@ import blondeJokes from '../assets/jokes/blonde.json';
 import barJokes from '../assets/jokes/bar.json';
 import nsfwJokes from '../assets/jokes/nsfw.json';
 import religion from '../assets/jokes/religion.json';
-import knockKnockJokes from '../assets/jokes/knock.json';
 import dadJokes from '../assets/jokes/dads.json';
+import politicsJokes from '../assets/jokes/politics.json';
 
 import { AsyncStorage } from 'react-native';
 import * as categories from '../constants';
@@ -18,7 +18,7 @@ export const getNsfwJokes = () => getPromise(nsfwJokes);
 
 export const getReligionJokes = () => getPromise(religion);
 
-export const getKnockKnockJokes = () => getPromise(knockKnockJokes);
+export const getPoliticsJokes = () => getPromise(politicsJokes);
 
 export const getDadJokes = () => getPromise(dadJokes);
 
