@@ -18,6 +18,11 @@ export default class App extends React.Component {
         <View style={mainStyle.container}>
           <Header />
           <Application />
+          <AdMobBanner
+            adSize="smartBanner"
+            adUnitID="ca-app-pub-2960578014983193/9241104009"
+            onAdFailedToLoad={error => console.error(error)}
+          />
         </View>
       </Provider>
     );
