@@ -4,7 +4,6 @@ import {
   getNsfwJokes,
   getBarJokes,
   getDadJokes,
-  getReligionJokes,
   getPoliticsJokes,
   getFavoriteJokes
 } from '../helpers/rapi';
@@ -15,7 +14,6 @@ import {
   BLONDE_JOKES,
   POLITICS_JOKES,
   BAR_JOKES,
-  RELIGION_JOKES,
   FAVORITE_JOKES
 } from '../constants';
 
@@ -75,9 +73,6 @@ export const getJokes = (category) => dispatch => {
       break;
     case BAR_JOKES:
       promise = getBarJokes();
-      break;
-    case RELIGION_JOKES:
-      promise = getReligionJokes();
       break;
     case POLITICS_JOKES:
       promise = getPoliticsJokes();

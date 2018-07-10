@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 
 export default ({index, content, style}) => (
   <View style={style}>
-    <Text style={indexStyle.container}>{`# ${index + 1}`}</Text>
+    {!!content ? <Text style={indexStyle.container}>{`# ${index + 1}`}</Text> : null }
     <ScrollView>
       <Text style={contentStyle.container}>{content}</Text>
     </ScrollView>

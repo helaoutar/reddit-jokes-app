@@ -29,9 +29,6 @@ export default class App extends React.Component {
   }
 }
 
-
-
-
 const mainStyle = StyleSheet.create({
   container: {
     position: 'relative',

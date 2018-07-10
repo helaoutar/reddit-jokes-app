@@ -6,8 +6,6 @@ export const DAD_JOKES =  'Dad Jokes';
 
 export const BAR_JOKES = 'Walk into a bar';
 
-export const RELIGION_JOKES = 'Religion';
-
 export const POLITICS_JOKES = 'Politics Jokes';
 
 export const FAVORITE_JOKES = 'Favorite Jokes';

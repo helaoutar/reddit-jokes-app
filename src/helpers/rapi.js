@@ -16,8 +16,6 @@ export const getBarJokes = () => getPromise(barJokes);
 
 export const getNsfwJokes = () => getPromise(nsfwJokes);
 
-export const getReligionJokes = () => getPromise(religion);
-
 export const getPoliticsJokes = () => getPromise(politicsJokes);
 
 export const getDadJokes = () => getPromise(dadJokes);
@@ -41,14 +39,11 @@ export const getFavoriteJokes = async () => {
         case categories.BLONDE_JOKES:
           jokes.push(blondeJokes[index]);
           break;
-        case categories.KNOCK_KNOCK_JOKES:
-          jokes.push(knockKnockJokes[index]);
+        case categories.POLITICS_JOKES:
+          jokes.push(politicsJokes[index]);
           break;
         case categories.NSFW:
           jokes.push(nsfwJokes[index]);
-          break;
-        case categories.RELIGION_JOKES:
-          jokes.push(religion[index]);
           break;
       }
     }
